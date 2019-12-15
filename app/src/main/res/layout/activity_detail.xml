@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailAct">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:background="#C7C7C7"
+                />
+
+            <LinearLayout
+                android:id="@+id/bg_level"
+                android:background="#fff"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <TextView
+                    android:id="@+id/level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RARE"
+                    android:textSize="16dp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/mmedium"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mmedium"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="Nama Weapon"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="24dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mmedium"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Type"
+                    android:layout_marginLeft="24dp"
+                    />
+
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mlight"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Assaults"
+                    android:layout_marginLeft="24dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginTop="24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mmedium"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:text="Demage"
+                        android:layout_marginLeft="24dp"
+                        />
+
+                    <ProgressBar
+                        android:id="@+id/pb_demage"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_width="190dp"
+                        android:layout_height="10dp"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressDrawable="@drawable/progressbarcustome" />
+
+                    <TextView
+                        android:id="@+id/txt_demage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mmedium"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="16dp"
+                        android:text="70"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginTop="24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mmedium"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:text="Fire Rate"
+                        android:layout_marginLeft="24dp"
+                        />
+
+                    <ProgressBar
+                        android:id="@+id/pb_firerate"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_width="190dp"
+                        android:layout_height="10dp"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressDrawable="@drawable/progressbarcustome" />
+
+                    <TextView
+                        android:id="@+id/txt_firerate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mmedium"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="16dp"
+                        android:text="70"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginTop="24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mmedium"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:text="Accuracy"
+                        android:layout_marginLeft="24dp"
+                        />
+
+                    <ProgressBar
+                        android:id="@+id/pb_accuracy"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_width="190dp"
+                        android:layout_height="10dp"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressDrawable="@drawable/progressbarcustome" />
+
+                    <TextView
+                        android:id="@+id/txt_accuracy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mmedium"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="16dp"
+                        android:text="70"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginTop="24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mmedium"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:text="Range"
+                        android:layout_marginLeft="24dp"
+                        />
+
+                    <ProgressBar
+                        android:id="@+id/pb_range"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_width="190dp"
+                        android:layout_height="10dp"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressDrawable="@drawable/progressbarcustome" />
+
+                    <TextView
+                        android:id="@+id/txt_range"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mmedium"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="16dp"
+                        android:text="70"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginTop="24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mmedium"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:text="Movment"
+                        android:layout_marginLeft="24dp"
+                        />
+
+                    <ProgressBar
+                        android:id="@+id/pb_movment"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_width="190dp"
+                        android:layout_height="10dp"
+                        android:max="100"
+                        android:progress="0"
+                        android:progressDrawable="@drawable/progressbarcustome" />
+
+                    <TextView
+                        android:id="@+id/txt_movment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mmedium"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="16dp"
+                        android:text="70"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mmedium"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:text="Effect"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="24dp"/>
+
+            <TextView
+                android:id="@+id/effect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mlight"
+                android:textSize="12dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

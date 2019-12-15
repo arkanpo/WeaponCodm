@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "38671038175",
+    "firebase_url": "https://weaponcod-22e3f.firebaseio.com",
+    "project_id": "weaponcod-22e3f",
+    "storage_bucket": "weaponcod-22e3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38671038175:android:c2feef50ea7d64685b9b6a",
+        "android_client_info": {
+          "package_name": "com.example.weaponcodm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38671038175-e42ldjvvq8e6vn2b39dq36nqe6qpaes3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weaponcodm",
+            "certificate_hash": "3fa158679669004a6bfe1ae337e536a47200d23f"
+          }
+        },
+        {
+          "client_id": "38671038175-ja84nic21uk1vp03kmq36gc7lfjlcbtp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPjiXuiNpd7Dcde_KgYDa1MViReHTmhZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38671038175-ja84nic21uk1vp03kmq36gc7lfjlcbtp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
